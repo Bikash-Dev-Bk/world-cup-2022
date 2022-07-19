@@ -116,3 +116,30 @@ body{
 .nav-bar a{
     text-decoration: none;
 }
+
+
+.footer-container{
+    background-color: #161616;
+    color: white;
+    height: 420px;
+    text-align: center;
+    
+}
+.footer-contant{
+    padding-top: 50px;
+    margin: 0 150px;
+}
+.footer-heading{
+    font-size: 40px;
+}
+hr{
+    margin-bottom: 50px;
+}
+span{
+    padding: 0 25px;
+}
+.social-media, .fa-brands{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
