@@ -40,7 +40,7 @@ body{
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    background-color: red;
+    background-color: blueviolet;
     color: white;
 }
 .banner-right{
@@ -56,11 +56,11 @@ body{
 
 
 /* ---------------------------------
-                Main
+                Blogs
 ------------------------------------*/
 
 
-.main{
+.navbar-and-blogs{
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin: 100px;
@@ -110,12 +110,38 @@ body{
     border-radius: 10px;
     text-align: center;
     margin-top: 20px;
-    height: 270px;
-    background-color: #161616;;
+    height: 290px;
+    background-color: #161616;
 }
 .nav-bar a{
     text-decoration: none;
+    color: #161616;
+    
 }
+
+.nav-btn{
+    width: 80%;
+    margin: 25px 25px 0;
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+#selected{
+    background-color: blueviolet;
+}
+#selected a{
+    color: white;
+}
+
+
+
+/* ---------------------------------
+                Footer
+------------------------------------*/
 
 
 .footer-container{
