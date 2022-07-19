@@ -1,0 +1,161 @@
+/* --------------------------------------
+                   fonts
+---------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* ------------------------------------------ 
+          common style or utilities 
+-------------------------------------------- */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ---------------------------------
+                Banner 
+------------------------------------*/
+
+.banner{
+    display: flex;
+    
+    color: white;
+    background-color: #161616;
+    border-radius: 25px;
+    margin: 50px 120px 0;
+    height: 620px;
+}
+.banner-left{
+    width: 50%;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.banner-title{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.banner-btn{
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-image img{
+    margin-top: 30px;
+    margin-right: 70px;
+    height: 590px;
+    
+}
+
+
+
+/* ---------------------------------
+                Matches
+------------------------------------*/
+
+
+.navbar-and-matches{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 100px;
+}
+
+
+
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.match{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 50px 30px 35px;
+}
+.match-image{
+    display: flex;
+    justify-content: space-around;
+}
+.match-bottom{
+    text-align: center;
+}
+
+
+
+
+/* ---------------------------------
+                Nav-bar
+------------------------------------*/
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    height: 290px;
+    background-color: #161616;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #161616;
+    
+}
+
+.nav-btn{
+    width: 80%;
+    margin: 25px 25px 0;
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+#selected{
+    background-color: blueviolet;
+}
+#selected a{
+    color: white;
+}
+
+
+
+/* ---------------------------------
+                Footer
+------------------------------------*/
+
+
+.footer-container{
+    background-color: #161616;
+    color: white;
+    height: 420px;
+    text-align: center;
+    
+}
+.footer-contant{
+    padding-top: 50px;
+    margin: 0 150px;
+}
+.footer-heading{
+    font-size: 40px;
+}
+hr{
+    margin-bottom: 50px;
+}
+span{
+    padding: 0 25px;
+}
+.social-media, .fa-brands{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
