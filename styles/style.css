@@ -1,0 +1,118 @@
+/* --------------------------------------
+                   fonts
+---------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* ------------------------------------------ 
+          common style or utilities 
+-------------------------------------------- */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ---------------------------------
+                Banner 
+------------------------------------*/
+
+.banner{
+    display: flex;
+    
+    color: white;
+    background-color: #161616;
+    border-radius: 25px;
+    margin: 50px 120px 0;
+    height: 620px;
+}
+.banner-left{
+    width: 50%;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.banner-title{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.banner-btn{
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-image img{
+    margin-top: 30px;
+    margin-right: 70px;
+    height: 590px;
+    
+}
+
+
+
+/* ---------------------------------
+                Main
+------------------------------------*/
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 100px;
+}
+
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.blog{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    margin: 20px;
+}
+.blog-bottom{
+    padding: 20px;
+}
+.blog-btn{
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.blog-icon{
+    display: flex;
+}
+.blog-comment{
+    margin-left: 30px;
+    color: rgb(153, 153, 153);
+}
+.blog-time{
+    color: rgb(153, 153, 153);
+}
+
+
+
+/* ---------------------------------
+                Nav-bar
+------------------------------------*/
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    height: 270px;
+    background-color: #161616;;
+}
+.nav-bar a{
+    text-decoration: none;
+}
