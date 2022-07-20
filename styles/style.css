@@ -94,6 +94,16 @@ body{
 .blog-time{
     color: rgb(153, 153, 153);
 }
+.special-btn button{
+    display: none;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
 
 
 
@@ -226,6 +236,7 @@ hr{
     .nav-bar{
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 100%;
         background-color: white;
     }
@@ -240,10 +251,10 @@ hr{
         margin: 0 60px;
     }
     .footer-bottom{
-        padding: 0;
-        margin-top: 20px;
         display: flex;
         flex-direction: column; 
+        padding: 0;
+        margin-top: 20px;
     }
     .footer-bottom div{
         padding: 0;
@@ -256,5 +267,65 @@ hr{
 /*------Tablet devics--------*/
 
 @media only screen and (min-width: 689px) and (max-width: 991px) {
+     /* ------------Banner------------*/
+    .banner{
+        display: flex;
+        width: 93%;
+        height: 430px;
+        border-radius: 10px;
+        margin: 20px 0 0 27px;
+    }
+    .banner-image img{
+        padding-left: 50px;
+        margin-top: 120px;
+        margin-right: 40px;
+        height: 310px; 
+    }
+    .banner-title{
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .banner-left{
+        width: 100%;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+     /* ------------navbar-and-blogs------------*/
+    .navbar-and-blogs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        background-color: white;
+    }
+
+     /* ------------Footer------------*/
+    .footer-container{
+        height: 490px;
+    }
+
+    .footer-bottom{
+        display: flex;
+        flex-wrap: wrap; 
+        width: 500px;
+        padding: 10;
+        margin-top: 20px;
+    }
+    .footer-bottom div{
+        margin-top: 20px;
+    }
     
 }
