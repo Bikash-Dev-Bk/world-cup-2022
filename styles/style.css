@@ -94,11 +94,18 @@ body{
 .blog-time{
     color: rgb(153, 153, 153);
 }
+
+.special-btn{
+    display: flex;
+    justify-content: center;
+}
+
 .special-btn button{
-    display: none;
     font-size: 22px;
     font-weight: 700;
     padding: 20px 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
     border: none;
     border-radius: 10px;
     background-color: blueviolet;
@@ -194,6 +201,9 @@ hr{
 @media only screen and (max-width: 688px) {
 
     /* ------------Banner------------*/
+    .special-btn button{
+        display: none;
+    }
     .banner{
         display: flex;
         flex-direction: column;
@@ -329,4 +339,12 @@ hr{
         margin-top: 20px;
     }
     
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .special-btn button{
+        display: none;
+    }
 }

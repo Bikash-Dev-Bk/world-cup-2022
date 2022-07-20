@@ -86,6 +86,22 @@ body{
 .match-bottom{
     text-align: center;
 }
+.special-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.special-btn button{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
 
 
 
@@ -177,6 +193,9 @@ hr{
 @media only screen and (max-width: 688px) {
 
     /* ------------Banner------------*/
+    .special-btn button{
+        display: none;
+    }
     .banner{
         display: flex;
         flex-direction: column;
@@ -251,7 +270,7 @@ hr{
    .banner{
        display: flex;
        width: 93%;
-       height: 430px;
+       height: 530px;
        border-radius: 10px;
        margin: 20px 0 0 27px;
    }
@@ -308,4 +327,10 @@ hr{
        margin-top: 20px;
    }
    
+}
+
+@media only screen and (min-width: 992px) {
+    .special-btn button{
+        display: none;
+    }
 }
