@@ -1,6 +1,7 @@
 /* --------------------------------------
                    fonts
 ---------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
@@ -101,6 +102,7 @@ body{
     text-align: center;
     margin-top: 20px;
     height: 290px;
+    width: 290px;
     background-color: #161616;
 }
 .nav-bar a{
