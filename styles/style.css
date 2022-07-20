@@ -24,6 +24,7 @@ body{
     border-radius: 25px;
     margin: 50px 120px 0;
     height: 620px;
+    position: relative;
 }
 .banner-left{
     width: 50%;
@@ -53,7 +54,9 @@ body{
 .banner-image img{
     margin-top: 30px;
     margin-right: 70px;
-    height: 590px; 
+    height: 590px;
+    position: absolute;
+    bottom: 0; 
 }
 
 
@@ -259,7 +262,7 @@ hr{
     /* ------------Footer------------*/
 
     .footer-container{
-        height: 620px;
+        height: 580px;
     }
     .footer-contant{
         padding-top: 20px;
@@ -296,6 +299,7 @@ hr{
         margin-top: 120px;
         margin-right: 40px;
         height: 310px; 
+        right: 0;
     }
     .banner-title{
         font-size: 38px;
