@@ -221,7 +221,7 @@ hr{
         text-align: center;
     }
 
-    /* ------------navbar-and-blogs------------*/
+    /* ------------navbar-and-matches------------*/
 
     .navbar-and-matches{
         display: flex;
@@ -290,7 +290,7 @@ hr{
        margin-top: 20px;
    }
 
-    /* ------------navbar-and-blogs------------*/
+    /* ------------navbar-and-matches------------*/
    .navbar-and-matches{
        display: flex;
        flex-direction: column;
@@ -328,6 +328,9 @@ hr{
    }
    
 }
+
+
+/*------Laptop/Desktop devics--------*/
 
 @media only screen and (min-width: 992px) {
     .special-btn button{
