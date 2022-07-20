@@ -161,3 +161,87 @@ span{
     font-size: 30px;
     color: white;
 }
+
+
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devics--------*/
+
+@media only screen and (max-width: 688px) {
+
+    /* ------------Banner------------*/
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 582px;
+        border-radius: 10px;
+        margin: 20px 0 0 27px;
+    }
+    .banner-image img{
+        padding-left: 65px;
+        margin-top: 30px;
+        margin-right: 0px;
+        height: 230px; 
+    }
+    .banner-title{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .banner-left{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* ------------navbar-and-blogs------------*/
+
+    .navbar-and-matches{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .matches{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+
+    /* ------------Footer------------*/
+
+    .footer-container{
+        height: 620px;
+    }
+    .footer-contant{
+        padding-top: 20px;
+        margin: 0 60px;
+    }
+    .footer-bottom{
+        padding: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column; 
+    }
+    .footer-bottom div{
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+
+/*------Tablet devics--------*/
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    
+}

@@ -19,7 +19,6 @@ body{
 
 .banner{
     display: flex;
-    
     color: white;
     background-color: #161616;
     border-radius: 25px;
@@ -49,8 +48,7 @@ body{
 .banner-image img{
     margin-top: 30px;
     margin-right: 70px;
-    height: 590px;
-    
+    height: 590px; 
 }
 
 
@@ -126,7 +124,7 @@ body{
     padding: 20px 15px;
     font-size: 20px;
     font-weight: 700;
-    border: none;
+    border: 1px solid rgb(225, 225, 225);
     border-radius: 10px;
     background-color: white;
     
@@ -149,8 +147,7 @@ body{
     background-color: #161616;
     color: white;
     height: 420px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .footer-contant{
     padding-top: 50px;
@@ -159,14 +156,105 @@ body{
 .footer-heading{
     font-size: 40px;
 }
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.footer-bottom div{
+    padding: 0 20px;
+}
 hr{
     margin-bottom: 50px;
-}
-span{
-    padding: 0 25px;
 }
 .social-media, .fa-brands{
     padding: 20px;
     font-size: 30px;
     color: white;
+}
+
+
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devics--------*/
+
+@media only screen and (max-width: 688px) {
+
+    /* ------------Banner------------*/
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 582px;
+        border-radius: 10px;
+        margin: 20px 0 0 27px;
+    }
+    .banner-image img{
+        padding-left: 65px;
+        margin-top: 30px;
+        margin-right: 0px;
+        height: 230px; 
+    }
+    .banner-title{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .banner-left{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* ------------navbar-and-blogs------------*/
+
+    .navbar-and-blogs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+
+    /* ------------Footer------------*/
+
+    .footer-container{
+        height: 620px;
+    }
+    .footer-contant{
+        padding-top: 20px;
+        margin: 0 60px;
+    }
+    .footer-bottom{
+        padding: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column; 
+    }
+    .footer-bottom div{
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+
+
+
+/*------Tablet devics--------*/
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    
 }
