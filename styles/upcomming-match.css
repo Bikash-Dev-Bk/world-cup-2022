@@ -140,8 +140,7 @@ body{
     background-color: #161616;
     color: white;
     height: 420px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .footer-contant{
     padding-top: 50px;
@@ -150,11 +149,16 @@ body{
 .footer-heading{
     font-size: 40px;
 }
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.footer-bottom div{
+    padding: 0 20px;
+}
 hr{
     margin-bottom: 50px;
-}
-span{
-    padding: 0 25px;
 }
 .social-media, .fa-brands{
     padding: 20px;
